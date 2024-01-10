@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sliding Puzzle Game</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="puzzlee.css" />
+</head>
+<body>
+  <div class="cover-screen">
+    <p id="result"></p>
+    <button id="start-button">Start Game</button>
+  </div>
+  <div class="slider-game">
+    <div class="container">
+      <!-- Placeholder content for puzzle pieces goes here -->
+    </div>
+    <div class="orignal-img">
+      <img id="originalImage" src="orignal-img.jpg" alt="HELLO" />
+    </div>
+    <!-- Moves container with Show Image button -->
+    <div class="moves-container">
+      <div id="moves"></div>
+      <button id="show">Show Image</button>
+    </div>
+  </div>
+
+
+  <!-- Popups -->
+<div id="popup1" class="popup">
+    <p>Give it a try!</p>
+  </div>
+
+  <div id="popup2" class="popup">
+    <p>Come on! You can do this. Put more effort!</p>
+  </div>
+
+  <div id="popup3" class="popup">
+    <p>Great job! You're a good human. Consider contributing to animal welfare in real.</p>
+  </div>
+  <!-- Script -->
+  <script src="puzzlee.js"></script>
+</body>
+</html>
